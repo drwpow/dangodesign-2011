@@ -1,0 +1,74 @@
+@charset "utf-8";
+@font-face                      {font-family: 'Cardo';src: url('/glyph/cardo.eot');src: url('/glyph/cardo.eot#iefix') format('embedded-opentype'),url('/glyph/cardo.woff2') format('woff2'),url('/glyph/cardo.woff') format('woff'),url('/glyph/cardo.ttf') format('truetype'),url('/glyph/cardo.svg#CardoRegular') format('svg');font-weight: normal;font-style: normal;}
+@font-face                      {font-family: 'CallunaSans';src: url('/glyph/callunasans.eot');src: url('/glyph/callunasans.eot?iefix') format('eot'),url('/glyph/callunasans.woff') format('woff'),url('/glyph/callunasans.ttf') format('truetype'),url('/glyph/callunasans.svg#webfontnehNrF5g') format('svg');font-weight: normal;font-style: normal;}
+
+@media screen {
+*                               {margin:0;padding:0;outline:none;}
+* html .group, *:first-child+html .group { zoom: 1; } /* First selector = IE6, Second Selector = IE 7 */
+a                               {color:#000;text-decoration:underline;}
+a:hover                         {color:#000;}
+a img                           {border:0;}
+blockquote                      {}
+body                            {width:100%;background-color:#fff;color:#111;font:14px 'CallunaSans', sans-serif;line-height:18px;}
+div                             {display:block;}
+h1                              {}
+h2                              {}
+h3                              {}
+fieldset                        {border:0;}
+iframe                          {border:0;}
+p                               {margin-bottom:10px;}
+small                           {font-size:12px;}
+ul, ol                          {margin-bottom:10px;}
+
+#art                            {background-position:0 -250px;}
+#art:hover, #arton              {background-position:0 -300px;}
+#block                          {width:960px;margin:0 auto;}
+#bio                            {background-position:0 -350px;}
+#bio:hover, #bioon              {background-position:0 -400px;}
+#contact                        {background-position:0 -450px;}
+#contact:hover, #contacton      {background-position:0 -500px;}
+#dango                          {width:200px;height:150px;background:#fff url('/img/siteroll.gif') no-repeat top left;margin-bottom:50px;}
+#dango a                        {height:120px;}
+#fronttiles                     {position:relative;}
+#fronttiles a                   {position:absolute;text-decoration:none;}
+#fronttiles div                 {position:absolute;display:none;line-height:24px;color:#ffffff;padding:15px 20px;font-size:14px;letter-spacing:1px;background:#000000;}
+#fronttiles div a               {border:0 none;background:#000000;padding:0.3em;}
+#fronttiles div h1              {font:24px Century Gothic, Avant Garde, Futura, Arial, Helvetica, sans-serif;text-transform:uppercase;font-weight:normal;}
+#fronttiles #hitw               {}
+#fronttiles #hitwdet            {top:315px;width:671px;}
+#fronttiles #fl                 {top:428px;left:370px;}
+#fronttiles #fldet              {top:101px;width:301px;}
+#fronttiles #vv                 {top:428px;}
+#fronttiles #vvdet              {top:101px;width:301px;}
+#left                           {width:200px;float:left;margin-top:50px;position:fixed;}
+#right                          {width:711px;float:right;margin-top:50px;}
+#wire                           {}
+#wire fieldset label            {font-style:italic;}
+#wire fieldset input            {height:24px;padding:10px;font:24px Georgia, "Times New Roman", Times, serif;border-color:#c1beb5;border-style:solid;border-width:0 0 1px 0;}
+#wire fieldset textarea         {width:711px;height:370px;padding:0px;margin-top:20px;font:24px Georgia, "Times New Roman", Times, serif;line-height:40px;border:0;background:url('/img/message.gif') repeat ;}
+#wire .send                     {background-color:#111;color:#fff;cursor:pointer;width:150px;margin-top:20px;float:right;padding:12px;border:0;text-transform:uppercase;font:10px Tahoma, Geneva, sans-serif;letter-spacing:1px;}
+#web                            {background-position:0 -150px;}
+#web:hover, #webon              {background-position:0 -200px;}
+#webgall                        {padding-bottom:60px;}
+#webgall h1                     {color:#6883aa;font:24px 'Cardo' serif;letter-spacing:2px;float:left;}
+#webgall h3                     {float:right;color:#404040;font:16px 'Cardo', serif;margin-top:8px;}
+#webgall img                    {float:left;overflow:hidden;border:1px solid #d0d0d0;}
+#webgall p                      {font-size:14px;letter-spacing:1px;line-height:22px;text-align:justify;}
+#webgall hr                     {clear:both;margin-bottom:20px;width:100%;border-width:1px 0 0;border-color:#e8e8e8;border-style:solid;}
+#webgall .title	                {width:350px;height:40px;}
+#webgall .desc                  {width:711px;height:200px;margin-bottom:60px;}
+#webgall .desc a                {float:left;overflow:hidden;border:none;margin:0 20px 0 0;}
+#webgall .desc a:hover          {border:10px solid #6883aa;}
+#webgall .desc a:hover img      {margin:-10px;}
+
+.big                            {font:20px Georgia, "Times New Roman", Times, serif;}
+.clear                          {height:0;line-height:0;margin:0;padding:0;clear:both;}
+.nav                            {background-image:url('/img/siteroll.gif');background-repeat:no-repeat;width:200px;height:50px;margin-bottom:12px;}
+.nav a                          {height:50px;}
+.notext                         {text-indent:-9999px;overflow:hidden;}
+.notext a                       {display:block;}
+.readable                       {font:18px 'Cardo', serif;letter-spacing:1px;line-height:22px;margin-bottom:15px;}
+.signature                      {font:18px 'Cardo', serif;letter-spacing:2px;text-align:center;margin-top:60px;text-transform:uppercase;background:#000;padding:14px 0;color:#fff;}
+.signature .lines               {border-width:1px 0;border-color:#fff;border-style:solid;padding:9px 0 7px;width:60%;margin:0 auto;}
+.signature a                    {color:#fff;text-decoration:none;display:block;}
+br.c                            {clear:both;}

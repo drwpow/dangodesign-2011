@@ -1,0 +1,46 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Dango Design. Main.</title>
+<link rel="stylesheet" type="text/css" href="/mochi.css"/>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+<script type="text/javascript" src="/code/jquery.js"></script>
+<script type="text/javascript" src="/code/konami.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#hitw').hover(function() {$('#hitwdet').fadeIn();},function() {$('#hitwdet').fadeOut();});
+  $('#fl').hover(function() {$('#fldet').fadeIn();},function() {$('#fldet').fadeOut();});
+  $('#vv').hover(function() {$('#vvdet').fadeIn();},function() {$('#vvdet').fadeOut();});
+});
+</script>
+</head>
+
+<body>
+<div id="block">
+  <div id="left">
+    <div id="dango" class="notext"><h2><a href="/">Dango Design</a></h2></div>
+    <div id="web" class="nav notext"><a href="/web/">Web</a></div>
+    <div id="art" class="nav notext"><a href="/art/">Art</a></div>
+    <div id="bio" class="nav notext"><a href="/bio/">Bio</a></div>
+    <div id="contact" class="nav notext"><a href="/contact/">Contact</a></div>
+  </div>
+  <div id="right">
+    <div id="fronttiles">
+      <a id="hitw" href="/web/"><img src="/img/01.jpg" alt="Hole in the Wall Drywall Repair" width="711" height="400"/>
+      <div id="hitwdet"><h1>Hole in the Wall</h1>
+        Logo, branding, and website for local drywall repair company</div></a>
+      <a id="vv" href="/web/"><img src="/img/02.jpg" alt="Virtual Villas" width="341" height="210"/>
+      <div id="vvdet"><h1>Virtual Villas</h1>
+        Logo and website design/programming for online vacation rental company</div></a>
+      <a id="fl" href="/web/"><img src="/img/03.jpg" alt="Florida Lifestyle" width="341" height="210"/>
+      <div id="fldet"><h1>Florida Lifestyle</h1>
+        Logo and website for vacation<br/>
+        transportation services</div></a>
+    </div>
+  </div>
+  <p class="clear"></p>
+</div>
+</body>
+<!-- 2011 \ Dango Design -->
+</html>
